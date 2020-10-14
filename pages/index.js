@@ -14,15 +14,14 @@ export default function Home() {
       <AppNavbar />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 style={{paddingLeft:"18px"}} className={styles.title}>
           Welcome to the Title Page
         </h1>
 
-        <picture>
-          <p>
-            [picture goes here]
-          </p>       
-        </picture>
+        <figure style={{paddingTop:"25px"}}>
+          <img src="/images/IMG_0270.jpg" alt="A photo of me" className={styles.photo}/>
+          <figcaption className={styles.caption}>A photo of me</figcaption>    
+        </figure>
 
         <p className={styles.description}>
           My name is Greg and this is my website.

@@ -13,15 +13,15 @@ export default function interests() {
                 <h1 className={styles.subtitle}>Interests</h1>
             </main>
 
-            <section className={styles.section}>
+            <section style={{marginBottom:"15px"}} className={styles.section}>
                 <section className={styles.textbody1}>
                     <h2 className={styles.sectiontitle}>Video Games</h2>
                     <p>
-                        I've been playing video games since I was fairly small. <br></br>
+                        I've been playing video games since I was small, <br></br>
                         and I enjoy most kinds.
                     </p>
                 </section>
-                <figure className={styles.imagebody1}>
+                <figure style={{paddingTop:"5px"}} className={styles.imagebody1}>
                     <img src="/images/220px-Pikmin_cover_art.jpg" alt="Pikmin cover art" className={styles.boxart}/>
                     <img src="/images/Bloodborne_Cover_Wallpaper.jpg" alt="Bloodborne cover art" style={{marginRight:"80px"}} className={styles.boxart}/>
                     <figcaption style={{paddingRight:"50px"}}className={styles.caption}>Some of my favorite games</figcaption>
@@ -55,8 +55,8 @@ export default function interests() {
                     </p>
                 </section>
                 <figure className={styles.imagebody1}>
-                    <img src="/images/220px-Pikmin_cover_art.jpg" alt="Pikmin cover art" className={styles.boxart}/>
-                    <img src="/images/Bloodborne_Cover_Wallpaper.jpg" alt="Bloodborne cover art" style={{marginRight:"80px"}} className={styles.boxart}/>
+                    <img src="/images/220px-Megadeth-RustInPeace.jpg" alt="Pikmin cover art" className={styles.albumart}/>
+                    <img src="/images/From_Mars_to_Sirius.jpg" alt="Bloodborne cover art" style={{marginRight:"80px"}} className={styles.albumart}/>
                     <figcaption style={{paddingRight:"50px"}}className={styles.caption}>Some bands I enjoy</figcaption>
                 </figure>
             </section>

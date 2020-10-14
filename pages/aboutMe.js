@@ -13,7 +13,7 @@ export default function interests() {
             </main>
 
             <section className={styles.section}>
-                <section className={styles.textbody1}>
+                <section  style={{width:"40%"}} className={styles.textbody1}>
                     <p className={styles.description}>
                         My name is Greg Baroni
                     </p>
@@ -23,12 +23,12 @@ export default function interests() {
                         <li style={{padding:"10px"}}>I'm a middle child with two brothers and a sister</li>
                         <li style={{padding:"10px"}}>I'd describe myself as describable</li>
                     </ul>
-                    <p className={styles.description}>
+                    <p style={{fontSize:"20px"}}className={styles.description}>
                         I look forward to seeing how things go this quarter
                     </p>
                 </section>
                 <figure className={styles.imagebody1}>
-                    <img src="/images/220px-Pikmin_cover_art.jpg" alt="Pikmin cover art" className={styles.boxart}/>
+                    <img src="/images/ucsb_campus.jpg" alt="UCSB campus" className={styles.campus}/>
                     <figcaption style={{paddingRight:"50px"}}className={styles.caption}>Photo of UCSB, because I don't know what to put here</figcaption>
                 </figure>
             </section>

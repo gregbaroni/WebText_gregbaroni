@@ -23,7 +23,7 @@ export default function Home() {
           <figcaption className={styles.caption}>A photo of me</figcaption>    
         </figure>
 
-        <p className={styles.description}>
+        <p style={{lineHeight:"1.15", fontSize:"2rem"}} className={styles.description}>
           My name is Greg and this is my website.
         </p>
       </main>

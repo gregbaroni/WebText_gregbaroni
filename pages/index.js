@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        My name is Greg and this website exists.
+          My name is Greg and this is my website.
         </p>
       </main>
 

@@ -17,39 +17,48 @@ export default function interests() {
                 <section className={styles.textbody1}>
                     <h2 className={styles.sectiontitle}>Video Games</h2>
                     <p>
-                        I like video games
-                        asdfsaasdfasdfasdfasdfasdfasdfasdfsadf
-                        asdfasdfaaaaaaaaaaaaaa
-                        <br></br>
-                        asdfasdfsa
-                        asdfasdf
+                        I've been playing video games since I was fairly small. <br></br>
+                        and I enjoy most kinds.
                     </p>
                 </section>
-                <picture className={styles.imagebody1}>
+                <figure className={styles.imagebody1}>
                     <img src="/images/220px-Pikmin_cover_art.jpg" alt="Pikmin cover art" className={styles.boxart}/>
                     <img src="/images/Bloodborne_Cover_Wallpaper.jpg" alt="Bloodborne cover art" style={{marginRight:"80px"}} className={styles.boxart}/>
-                </picture>
+                    <figcaption style={{paddingRight:"50px"}}className={styles.caption}>Some of my favorite games</figcaption>
+                </figure>
             </section>
-
-
 
             <hr></hr>
 
             <section className={styles.section}>
-                <picture className={styles.imagebody2}>
+                <figure className={styles.imagebody2}>
                     <img src="/images/Arenure.png" alt="Map" className={styles.map}/>
-                </picture>
+                    <figcaption className={styles.caption}>An almost finished map I've made of a homebrew world</figcaption>
+                </figure>
                 <section className={styles.textbody2}>
                     <h2 className={styles.sectiontitle}>Dungeons and Dragons</h2>
                     <p>
-                        I like video games
-                        asdfsaasdfasdfasdfasdfasdfasdfasdfsadf
-                        asdfasdfaaaaaaaaaaaaaa
-                        <br></br>
-                        asdfasdfsa
-                        asdfasdf
+                        I was introduced to D&D by my dad, <br></br>
+                        and I've been both a player and a DM.
                     </p>
                 </section>
+            </section>
+
+            <hr></hr>
+
+            <section className={styles.section}>
+                <section className={styles.textbody1}>
+                    <h2 className={styles.sectiontitle}>Music</h2>
+                    <p>
+                        I mostly listen to metal, <br></br>
+                        though I also listen to other stuff.
+                    </p>
+                </section>
+                <figure className={styles.imagebody1}>
+                    <img src="/images/220px-Pikmin_cover_art.jpg" alt="Pikmin cover art" className={styles.boxart}/>
+                    <img src="/images/Bloodborne_Cover_Wallpaper.jpg" alt="Bloodborne cover art" style={{marginRight:"80px"}} className={styles.boxart}/>
+                    <figcaption style={{paddingRight:"50px"}}className={styles.caption}>Some bands I enjoy</figcaption>
+                </figure>
             </section>
 
         </div>

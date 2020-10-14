@@ -17,19 +17,27 @@
 }
 
 .textbody1 {
+  color:white;
   float: left;
   padding: 20px;
   margin: 50px;
+  text-align: center;
   margin-left: 80px;
   width: 40%; 
+  border-radius: 25px;
+  background: rgb(73, 70, 70);
 }
 
 .textbody2 {
+  color:white;
   float: right;
   padding: 20px;
   margin: 50px;
+  text-align: center;
   margin-left: 80px;
   width: 30%; 
+  border-radius: 25px;
+  background: rgb(73, 70, 70);
 }
 
 .imagebody1 {
@@ -93,6 +101,11 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.caption {
+  text-align:center;
+  font-size: 12px;
 }
 
 .boxart {

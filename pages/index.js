@@ -18,6 +18,12 @@ export default function Home() {
           Welcome to the Title Page
         </h1>
 
+        <picture>
+          <p>
+            [picture goes here]
+          </p>       
+        </picture>
+
         <p className={styles.description}>
           My name is Greg and this is my website.
         </p>

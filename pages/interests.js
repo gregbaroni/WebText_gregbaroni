@@ -23,8 +23,8 @@ export default function interests() {
                 </section>
                 <figure style={{paddingTop:"5px"}} className={styles.imagebody1}>
                     <img src="/images/220px-Pikmin_cover_art.jpg" alt="Pikmin cover art" className={styles.boxart}/>
-                    <img src="/images/Bloodborne_Cover_Wallpaper.jpg" alt="Bloodborne cover art" style={{marginRight:"80px"}} className={styles.boxart}/>
-                    <figcaption style={{paddingRight:"50px"}}className={styles.caption}>Some of my favorite games</figcaption>
+                    <img src="/images/Bloodborne_Cover_Wallpaper.jpg" alt="Bloodborne cover art" style={{marginRight:"120px"}} className={styles.boxart}/>
+                    <figcaption style={{paddingRight:"100px"}}className={styles.caption}>Some of my favorite games</figcaption>
                 </figure>
             </section>
 

@@ -24,7 +24,7 @@ export default function interests() {
                 <figure style={{paddingTop:"5px"}} className={styles.imagebody1}>
                     <img src="/images/220px-Pikmin_cover_art.jpg" alt="Pikmin cover art" className={styles.boxart}/>
                     <img src="/images/Bloodborne_Cover_Wallpaper.jpg" alt="Bloodborne cover art" style={{marginRight:"120px"}} className={styles.boxart}/>
-                    <figcaption style={{paddingRight:"100px"}}className={styles.caption}>Some of my favorite games</figcaption>
+                    <figcaption style={{paddingRight:"100px"}}className={styles.caption}>Two of my favorite games</figcaption>
                 </figure>
             </section>
 
@@ -33,7 +33,7 @@ export default function interests() {
             <section className={styles.section}>
                 <figure className={styles.imagebody2}>
                     <img src="/images/Arenure.png" alt="Map" className={styles.map}/>
-                    <figcaption className={styles.caption}>An almost finished map I've made of a homebrew world</figcaption>
+                    <figcaption className={styles.caption}>An almost finished map I've made using Wonderdraft</figcaption>
                 </figure>
                 <section className={styles.textbody2}>
                     <h2 className={styles.sectiontitle}>Dungeons and Dragons</h2>
@@ -55,8 +55,8 @@ export default function interests() {
                     </p>
                 </section>
                 <figure className={styles.imagebody1}>
-                    <img src="/images/220px-Megadeth-RustInPeace.jpg" alt="Pikmin cover art" className={styles.albumart}/>
-                    <img src="/images/From_Mars_to_Sirius.jpg" alt="Bloodborne cover art" style={{marginRight:"80px"}} className={styles.albumart}/>
+                    <img src="/images/220px-Megadeth-RustInPeace.jpg" alt="Megadeth album art" className={styles.albumart}/>
+                    <img src="/images/From_Mars_to_Sirius.jpg" alt="Gojira album art" style={{marginRight:"80px"}} className={styles.albumart}/>
                     <figcaption style={{paddingRight:"50px"}}className={styles.caption}>Some bands I enjoy</figcaption>
                 </figure>
             </section>

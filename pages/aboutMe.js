@@ -28,7 +28,7 @@ export default function interests() {
                     </p>
                 </section>
                 <figure className={styles.imagebody1}>
-                    <img src="/images/ucsb_campus.jpg" alt="UCSB campus" className={styles.campus}/>
+                    <img src="/images/ucsb-campus.jpg" alt="UCSB campus" className={styles.campus}/>
                     <figcaption style={{paddingRight:"50px"}}className={styles.caption}>Photo of UCSB, because I don't know what to put here</figcaption>
                 </figure>
             </section>

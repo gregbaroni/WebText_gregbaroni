@@ -14,7 +14,7 @@ export default function interests() {
 
             <section className={styles.section}>
                 <section  style={{width:"40%"}} className={styles.textbody1}>
-                    <p className={styles.description}>
+                    <p style={{lineHeight: "1.15"}} className={styles.description}>
                         My name is Greg Baroni
                     </p>
                     <ul style={{textAlign:"left"}}>

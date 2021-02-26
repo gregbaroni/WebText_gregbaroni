@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
 
         <figure style={{paddingTop:"25px"}}>
-          <img src="/images/IMG_0270.jpg" alt="A photo of me" className={styles.photo}/>
+          <img src="/images/SelfPhoto.jpg" alt="A photo of me" className={styles.photo}/>
           <figcaption className={styles.caption}>A photo of me</figcaption>    
         </figure>
 
